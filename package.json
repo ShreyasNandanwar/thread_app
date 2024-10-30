@@ -1,5 +1,5 @@
-{
-  "name": "threads",
+﻿{
+  "name": "threads-clone",
   "version": "0.1.0",
   "private": true,
   "scripts": {

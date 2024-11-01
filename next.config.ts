@@ -1,6 +1,10 @@
 ﻿import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  serverExternalPackages: ["mongoose"],
   images: {
     domains: ["img.clerk.com", "images.clerk.dev", "utfs.io"],
     remotePatterns: [

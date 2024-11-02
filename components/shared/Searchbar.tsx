@@ -25,10 +25,10 @@ function Searchbar({ routeType }: Props) {
     }, 300);
 
     return () => clearTimeout(delayDebounceFn);
-  }, [search, routeType]);
+  }, [search, routeType, router]);
 
   return (
-    <div className='searchbar'>
+    <div className='searschbar'>
       <Image
         src='/assets/search-gray.svg'
         alt='search'

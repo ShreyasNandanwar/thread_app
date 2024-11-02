@@ -52,7 +52,6 @@ async function Page({ params }: { params: { id: string } }) {
           </TabsList>
 
           <TabsContent value="threads" className="w-full text-light-1">
-            {/* @ts-ignore */}
             <ThreadsTab
               currentUserId={user.id}
               accountId={communityDetails._id}
@@ -76,7 +75,6 @@ async function Page({ params }: { params: { id: string } }) {
           </TabsContent>
 
           <TabsContent value="requests" className="w-full text-light-1">
-            {/* @ts-ignore */}
             <ThreadsTab
               currentUserId={user.id}
               accountId={communityDetails._id}

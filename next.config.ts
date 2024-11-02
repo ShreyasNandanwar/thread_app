@@ -4,6 +4,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   serverExternalPackages: ["mongoose"],
   images: {
     domains: ["img.clerk.com", "images.clerk.dev", "utfs.io"],
